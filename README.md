@@ -35,13 +35,14 @@ ewaol 的编译使用kas
                    
  如果采用ewaol,会改变现有的AM6442/TDA4 的编译架构，所以不采用。
  AM6442的代码架构：
+ “
  
  ├── build    
-├── configs
-├── downloads
-├── oe-layertool-setup.sh​
-├── sample-files
-└── sources
+ ├── configs
+ ├── downloads
+ ├── oe-layertool-setup.sh​
+ ├── sample-files
+ └── sources
        ├── bitbake
        ├── meta-arago
        ├── meta-arm
@@ -51,6 +52,7 @@ ewaol 的编译使用kas
        ├── meta-ti
        ├── meta-virtualization
        └── oe-core
+       ”
        
   为了加入K3S 工具，可以在  meta-virtualization加入k3s的编译
  
