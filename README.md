@@ -20,7 +20,6 @@ GOAL:集成K3S 到AM6442 /TDA4 单板
 
 ewaol 的编译使用kas
 
-
 编译会根据meta-ewaol-config/kas/n1sdp.yml去创建build \layers,且控制整个编译过程
 
           ├──build 
@@ -56,6 +55,8 @@ ewaol 的编译使用kas
             └── oe-core
     
   ti 支持的layers yocto branch:dunfell
+  
+
  
  
  
