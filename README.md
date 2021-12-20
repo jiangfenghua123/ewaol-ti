@@ -56,7 +56,7 @@ ewaol 的编译使用kas
     
   ti 支持的layers yocto branch:dunfell
   
-
+目前 meta-virtualization branch:dunfell 没有支持k3s
  
  
  
