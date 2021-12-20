@@ -7,10 +7,10 @@ GOAL:集成K3S 到AM6442 /TDA4 单板
 
 代码：https://git.gitlab.arm.com/ewaol/meta-ewaol.git
 
-meta-ewaol
-├── meta-ewaol-config   配置整个代码
-├── meta-ewaol-distro    编译目标
-├── meta-ewaol-tests     测试目标
+      meta-ewaol
+          ├── meta-ewaol-config   配置整个代码
+          ├── meta-ewaol-distro    编译目标
+          ├── meta-ewaol-tests     测试目标
 
 编译工具：kas
 
