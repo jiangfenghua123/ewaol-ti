@@ -11,10 +11,12 @@ GOAL:集成K3S 到AM6442 /TDA4 单板
           ├── meta-ewaol-config   配置整个代码
           ├── meta-ewaol-distro    编译目标
           ├── meta-ewaol-tests     测试目标
+          
 
 编译工具：kas
 
 编译命令：kas build meta-ewaol-config/kas/n1sdp.yml
+支持的yocto branch: hardknott
 
 ewaol 的编译使用kas
 
@@ -52,9 +54,8 @@ ewaol 的编译使用kas
            ├── meta-ti
            ├── meta-virtualization
             └── oe-core
-     
-       
-  为了加入K3S 工具，可以在  meta-virtualization加入k3s的编译
+    
+  ti 支持的layers yocto branch:dunfell
  
  
  
